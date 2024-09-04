@@ -1,0 +1,15 @@
+year = int(input("Enter the year: "))
+genre = input("Enter the genre: ")
+album = input ("Enter the album: ")
+title = input ("Enter the song title: ")
+artist = input("Enter the artist: ")
+
+print("--------------------------------")
+print("Song Details")
+print("--------------------------------")
+
+print(f"Year Released: {year} ")
+print(f"Year Released: {genre} ")
+print(f"Year Released: {album}")
+print(f"Year Released: \"{title}\"")
+print(f"Year Released: {artist} ")
